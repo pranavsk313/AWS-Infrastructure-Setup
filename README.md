@@ -23,34 +23,27 @@ RDS stands for Relational Database Service. It is a managed database service off
 
 1] Created The RDS database called MySQL
 
-
-![1](https://github.com/AdityaAgasti007/AWS-Infrastructure-Setup/assets/159541012/c062377e-be26-40aa-a7a5-274b3a24f365)
+![1](https://github.com/pranavsk313/Infra-setup-AWS/assets/122976840/296da71d-93b3-4920-812b-0a924a8000c4)
 
 
 2] Give them username and password
 
 
-![2](https://github.com/AdityaAgasti007/AWS-Infrastructure-Setup/assets/159541012/513d291c-c6f8-46c0-855b-c0046cc6aea1)
+![2](https://github.com/pranavsk313/Infra-setup-AWS/assets/122976840/501dfcab-6ac7-4d4c-84a3-9f3b9fd67184)
 
 
-3] Authenticated the password 
+
+3] create the database 
 
 
-![3](https://github.com/AdityaAgasti007/AWS-Infrastructure-Setup/assets/159541012/f1fd35f6-85a5-4947-92e5-4eb56f87cd9f)
-
-
-4] create the database 
-
-
-![4](https://github.com/AdityaAgasti007/AWS-Infrastructure-Setup/assets/159541012/e77fcfd8-dd2f-4d85-aae5-00217f03820b)
+![3](https://github.com/pranavsk313/Infra-setup-AWS/assets/122976840/2125c7e6-1384-44f1-afb3-643d3a8b45cb)
 
 
 # Step-2 
 
 1] Created The EC2 instance 
 
-
-![5](https://github.com/AdityaAgasti007/AWS-Infrastructure-Setup/assets/159541012/1f5a024c-3ec4-4370-a0d6-b8430c7265f6)
+![4](https://github.com/pranavsk313/Infra-setup-AWS/assets/122976840/c7add2e4-a983-4f93-8874-67c40f88f46b)
 
 
 2] Connected The Compute resource(Ec2) to The Relational database servuice (RDS)
@@ -61,11 +54,10 @@ RDS stands for Relational Database Service. It is a managed database service off
 
 3] setup the Ec2 connection 
 
+![5](https://github.com/pranavsk313/Infra-setup-AWS/assets/122976840/b5ed607f-ec6f-4643-95c2-309498e82cf6)
 
-![7](https://github.com/AdityaAgasti007/AWS-Infrastructure-Setup/assets/159541012/70304bdc-0dd4-4fb9-b1b4-c7d2d6e4a024)
 
-
-![8](https://github.com/AdityaAgasti007/AWS-Infrastructure-Setup/assets/159541012/84b71f03-6096-4fda-95a9-adbbc4b50f6d)
+![6](https://github.com/pranavsk313/Infra-setup-AWS/assets/122976840/664407b9-509d-49f6-b396-a42649e3f73d)
 
 
 4] Connection Details 
@@ -77,7 +69,7 @@ RDS stands for Relational Database Service. It is a managed database service off
 5] Setup And install mysql-client
 
 
-![10](https://github.com/AdityaAgasti007/AWS-Infrastructure-Setup/assets/159541012/a82b88e3-3bab-4e3f-b589-c3cc116731b7)
+![10](https://github.com/pranavsk313/Infra-setup-AWS/assets/122976840/a32685c8-f7b3-42ac-8699-7a1527f42c89)
 
 ```bash
 $ sudo apt install mysql-client
@@ -103,25 +95,26 @@ IAM roles are a fundamental concept within IAM frameworks, particularly in AWS. 
 1] Created the IAM roles For EC2 instance to Give full Access of RDS and CLoudwatch
 
 
-![11](https://github.com/AdityaAgasti007/AWS-Infrastructure-Setup/assets/159541012/113f0ff7-2f29-4979-9d9a-e5fe018d2795)
+![7](https://github.com/pranavsk313/Infra-setup-AWS/assets/122976840/c1d6bd4e-ed6a-4ca2-a4bc-600fe724efe6)
 
 
-![12](https://github.com/AdityaAgasti007/AWS-Infrastructure-Setup/assets/159541012/b9c2a262-da93-4bfd-ad96-0f1ef075cd75)
+![8](https://github.com/pranavsk313/Infra-setup-AWS/assets/122976840/8b7486dd-fc6d-44e2-ba0f-b2e4376e15ef)
 
 2] Modified the IAM roles In Ec2 instace 
 
 
-![13](https://github.com/AdityaAgasti007/AWS-Infrastructure-Setup/assets/159541012/a9637f70-af6b-4848-8edd-9c393954e4bf)
+![9](https://github.com/pranavsk313/Infra-setup-AWS/assets/122976840/25056b66-b20c-4e65-8669-c7174abe1905)
 
 
-![14](https://github.com/AdityaAgasti007/AWS-Infrastructure-Setup/assets/159541012/45d15287-8fb7-4be1-a4fb-3bb9c07b0f03)
 
 # Step-3
 
 1] Performed The Operations On database 
 
 
-![15](https://github.com/AdityaAgasti007/AWS-Infrastructure-Setup/assets/159541012/10ff3246-c5d3-4089-92f7-3b3cf96a63d4)
+
+![11](https://github.com/pranavsk313/Infra-setup-AWS/assets/122976840/c8829f19-947c-442f-9c4e-2be6d0314191)
+
 ```bash
 $ create database aws;
 ```
@@ -152,8 +145,8 @@ check the table if data is added or not
 
 Amazon CloudWatch is a monitoring and observability service provided by Amazon Web Services (AWS). It allows you to collect and track metrics, collect and monitor log files, set alarms, and automatically react to changes in your AWS resources. CloudWatch provides insights into your applications, infrastructure, and services running on AWS.
 
-![16](https://github.com/AdityaAgasti007/AWS-Infrastructure-Setup/assets/159541012/8f967b4c-cf08-4f49-b6eb-75ddf6f27767)
 
+![307601960-8f967b4c-cf08-4f49-b6eb-75ddf6f27767](https://github.com/pranavsk313/Infra-setup-AWS/assets/122976840/95e03428-17f7-45a1-a267-670203386694)
 
 
 
