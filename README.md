@@ -1,12 +1,13 @@
 # AWS-Infrastructure-Setup
-Provisioning of an AWS Infrastructure Stack with RDS MySQL Database, EC2 Compute Instance, and Secured Data Access via IAM Roles 
-# Architecture Of Project 
+Provisioning of an AWS Infrastructure stack with RDS MySQL database, EC2 compute instance, and Secured data access via IAM roles 
+# Architecture of Project 
 
 ![Architecture-Of-Project](https://github.com/AdityaAgasti07/AWS-Infrastructure-Setup/assets/159541012/698afe46-70bd-4a3b-a2f6-18d2e6621803)
 
 
 ## RDS- Relational Database Service
 RDS stands for Relational Database Service. It is a managed database service offered by Amazon Web Services (AWS) that provides easy setup, scaling, and management of relational databases such as MySQL, PostgreSQL, SQL Server, and Oracle.
+
 ## Key benefits of using RDS include:
 1] (Ease of Administration): RDS automates administrative tasks such as hardware provisioning, database setup, patching, and backups.
 
@@ -19,7 +20,6 @@ RDS stands for Relational Database Service. It is a managed database service off
 5] (Cost-Effectiveness): It offers a pay-as-you-go pricing model, allowing you to pay only for the resources you use without any upfront costs.
 
 # Step-1
-
 
 1] Created The RDS database called MySQL
 
@@ -41,18 +41,18 @@ RDS stands for Relational Database Service. It is a managed database service off
 
 # Step-2 
 
-1] Created The EC2 instance 
+1] Created The EC2 instance.
 
 ![4](https://github.com/pranavsk313/Infra-setup-AWS/assets/122976840/c7add2e4-a983-4f93-8874-67c40f88f46b)
 
 
-2] Connected The Compute resource(Ec2) to The Relational database servuice (RDS)
+2] Connected The compute resource(EC2) to The Relational Database Servuice (RDS)
 
 
 ![6](https://github.com/AdityaAgasti007/AWS-Infrastructure-Setup/assets/159541012/971284a7-c340-460e-a057-921e8efe4915)
 
 
-3] setup the Ec2 connection 
+3] Setup the EC2 connection. 
 
 ![5](https://github.com/pranavsk313/Infra-setup-AWS/assets/122976840/b5ed607f-ec6f-4643-95c2-309498e82cf6)
 
@@ -60,13 +60,13 @@ RDS stands for Relational Database Service. It is a managed database service off
 ![6](https://github.com/pranavsk313/Infra-setup-AWS/assets/122976840/664407b9-509d-49f6-b396-a42649e3f73d)
 
 
-4] Connection Details 
+4] Connection Details.
 
 
 ![9](https://github.com/AdityaAgasti007/AWS-Infrastructure-Setup/assets/159541012/7c7f0da2-2478-40ca-ba65-417775fda8ea)
 
 
-5] Setup And install mysql-client
+5] Setup and install Mysql-client
 
 
 ![10](https://github.com/pranavsk313/Infra-setup-AWS/assets/122976840/a32685c8-f7b3-42ac-8699-7a1527f42c89)
@@ -109,8 +109,7 @@ IAM roles are a fundamental concept within IAM frameworks, particularly in AWS. 
 
 # Step-3
 
-1] Performed The Operations On database 
-
+1] Performed the operations on database 
 
 
 ![11](https://github.com/pranavsk313/Infra-setup-AWS/assets/122976840/c8829f19-947c-442f-9c4e-2be6d0314191)
@@ -128,7 +127,7 @@ $ CREATE TABLE Class ( Student-id INT,  Student-name VARCHAR(30));
 ```
 create the table 
 ```bash
-$ select * from learners
+$ select * from Class;
 ```
 select the table 
 ```bash
