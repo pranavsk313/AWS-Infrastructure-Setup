@@ -116,11 +116,11 @@ IAM roles are a fundamental concept within IAM frameworks, particularly in AWS. 
 ![11](https://github.com/pranavsk313/Infra-setup-AWS/assets/122976840/c8829f19-947c-442f-9c4e-2be6d0314191)
 
 ```bash
-$ create database aws;
+$ create database pranavdb;
 ```
 created the datbase 
 ```bash
-$ use aws;
+$ use pranavdb;
 ```
 selected the database 
 ```bash
@@ -132,7 +132,7 @@ $ select * from learners
 ```
 select the table 
 ```bash
-$ insert into learners ( learner_id, learner_name) values ( 1, "aditya" );
+$ insert into learners ( learner_id, learner_name) values ( 1, "Pranav" );
 ```
 inserted data into table 
 ```bash
