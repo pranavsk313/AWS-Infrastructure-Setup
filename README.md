@@ -124,7 +124,7 @@ $ use pranavdb;
 ```
 selected the database 
 ```bash
-$ CREATE TABLE learners ( learner-id INT,  learner-name VARCHAR(50));
+$ CREATE TABLE Class ( Student-id INT,  Student-name VARCHAR(30));
 ```
 create the table 
 ```bash
@@ -132,11 +132,11 @@ $ select * from learners
 ```
 select the table 
 ```bash
-$ insert into learners ( learner_id, learner_name) values ( 1, "Pranav" );
+$ insert into Class ( Student_id, Student_name) values ( 1, "pranav" );
 ```
 inserted data into table 
 ```bash
-$ select * from learners;
+$ select * from Class;
 ```
 check the table if data is added or not 
 
