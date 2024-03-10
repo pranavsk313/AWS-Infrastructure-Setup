@@ -1,5 +1,7 @@
 # AWS-Infrastructure-Setup
 Provisioning of an AWS Infrastructure stack with RDS MySQL database, EC2 compute instance, and Secured data access via IAM roles 
+
+
 # Architecture of Project 
 
 ![Architecture-Of-Project](https://github.com/AdityaAgasti07/AWS-Infrastructure-Setup/assets/159541012/698afe46-70bd-4a3b-a2f6-18d2e6621803)
